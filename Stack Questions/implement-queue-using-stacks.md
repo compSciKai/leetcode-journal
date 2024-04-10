@@ -7,10 +7,11 @@ Having two stacks reduces the complexity to O(1) ammortized time. I've learned a
 
 #### Complexity
 - Time complexity:
-<O(n)>
+O(1) for Push and Empty
+O(n) for Pop and Peek, however could be optimized to O(1) Ammortized.
 
 - Space complexity:
-<O(1)>
+O(n) due to iterating through stacks
 
 #### My Solution
 ```c#
