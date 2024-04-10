@@ -50,34 +50,7 @@ public class Solution {
 ```
 
 #### LLM Optimization
-```c#
-public class Solution {
-    public void SwapAtIndices(int[] array, int indexOne, int indexTwo) {
-        int temp = array[indexOne];
-        array[indexOne] = array[indexTwo];
-        array[indexTwo] = temp;
-    }
 
-    public int RemoveElement(int[] nums, int val) {
-        int k = nums.Length;
-
-        for (int i = 0; i < k;)
-        {
-            if (nums[i] == val)
-            {
-                SwapAtIndices(nums, i, k-1);
-                k--;
-            } 
-            else 
-            {
-                i++;
-            }
-        }
-
-        return k;
-    }
-}
-```
 Sure, I can help optimize this code. Here's an optimized version of your code:
 
 ```csharp
