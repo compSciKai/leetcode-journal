@@ -13,7 +13,7 @@ O(n)
 O(1)
 
 #### My Solution
-```
+```c#
 public class Solution {
     public int[] swapAtIndices(int[] array, int indexOne, int indexTwo) {
         int firstItem = array[indexOne];
@@ -50,7 +50,7 @@ public class Solution {
 ```
 
 #### LLM Optimization
-```
+```c#
 public class Solution {
     public void SwapAtIndices(int[] array, int indexOne, int indexTwo) {
         int temp = array[indexOne];
